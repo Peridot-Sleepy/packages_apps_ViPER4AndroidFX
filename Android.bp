@@ -21,6 +21,7 @@ prebuilt_etc_xml {
 
 cc_prebuilt_library_shared {
     name: "libv4a_re",
+    check_elf_files: false,
     strip: {
         none: true,
     },
